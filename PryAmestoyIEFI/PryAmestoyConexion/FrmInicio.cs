@@ -101,5 +101,20 @@ namespace PryAmestoyConexion
                 }
               
         }
+
+        private void picturePersona_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblOlvidarContraseñan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\source\\repos\\PryAmestoyIEFI\\PryAmestoyIEFI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02939D87-F43B-472F-9648-5DD750D38AA7}|PryAmestoyConexion\\PryAmestoyConexion.csproj|c:\\users\\alumno\\source\\repos\\pryamestoyiefi\\pryamestoyiefi\\pryamestoyconexion\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02939D87-F43B-472F-9648-5DD750D38AA7}|PryAmestoyConexion\\PryAmestoyConexion.csproj|solutionrelative:pryamestoyconexion\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02939D87-F43B-472F-9648-5DD750D38AA7}|PryAmestoyConexion\\PryAmestoyConexion.csproj|c:\\users\\alumno\\source\\repos\\pryamestoyiefi\\pryamestoyiefi\\pryamestoyconexion\\frmstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02939D87-F43B-472F-9648-5DD750D38AA7}|PryAmestoyConexion\\PryAmestoyConexion.csproj|solutionrelative:pryamestoyconexion\\frmstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02939D87-F43B-472F-9648-5DD750D38AA7}|PryAmestoyConexion\\PryAmestoyConexion.csproj|c:\\users\\alumno\\source\\repos\\pryamestoyiefi\\pryamestoyiefi\\pryamestoyconexion\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02939D87-F43B-472F-9648-5DD750D38AA7}|PryAmestoyConexion\\PryAmestoyConexion.csproj|solutionrelative:pryamestoyconexion\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmInicio.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\source\\repos\\PryAmestoyIEFI\\PryAmestoyIEFI\\PryAmestoyConexion\\FrmInicio.cs",
+              "RelativeDocumentMoniker": "PryAmestoyConexion\\FrmInicio.cs",
+              "ToolTip": "C:\\Users\\Alumno\\source\\repos\\PryAmestoyIEFI\\PryAmestoyIEFI\\PryAmestoyConexion\\FrmInicio.cs",
+              "RelativeToolTip": "PryAmestoyConexion\\FrmInicio.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:18:46.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmStock.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alumno\\source\\repos\\PryAmestoyIEFI\\PryAmestoyIEFI\\PryAmestoyConexion\\FrmStock.cs",
+              "RelativeDocumentMoniker": "PryAmestoyConexion\\FrmStock.cs",
+              "ToolTip": "C:\\Users\\Alumno\\source\\repos\\PryAmestoyIEFI\\PryAmestoyIEFI\\PryAmestoyConexion\\FrmStock.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PryAmestoyConexion\\FrmStock.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:59:53.497Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alumno\\source\\repos\\PryAmestoyIEFI\\PryAmestoyIEFI\\PryAmestoyConexion\\FrmInicio.cs",
+              "RelativeDocumentMoniker": "PryAmestoyConexion\\FrmInicio.cs",
+              "ToolTip": "C:\\Users\\Alumno\\source\\repos\\PryAmestoyIEFI\\PryAmestoyIEFI\\PryAmestoyConexion\\FrmInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PryAmestoyConexion\\FrmInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:58:05.907Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

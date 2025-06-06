@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStock));
             this.DgvStock = new System.Windows.Forms.DataGridView();
             this.PictureTopS = new System.Windows.Forms.PictureBox();
@@ -68,39 +68,39 @@
             this.DgvStock.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DgvStock.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.DgvStock.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvStock.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvStock.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.DgvStock.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvStock.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvStock.DefaultCellStyle = dataGridViewCellStyle8;
             this.DgvStock.EnableHeadersVisualStyles = false;
             this.DgvStock.GridColor = System.Drawing.Color.SteelBlue;
-            this.DgvStock.Location = new System.Drawing.Point(260, 97);
+            this.DgvStock.Location = new System.Drawing.Point(309, 96);
             this.DgvStock.Name = "DgvStock";
             this.DgvStock.ReadOnly = true;
             this.DgvStock.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvStock.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvStock.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.DgvStock.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvStock.Size = new System.Drawing.Size(508, 277);
+            this.DgvStock.Size = new System.Drawing.Size(472, 327);
             this.DgvStock.TabIndex = 2;
             this.DgvStock.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvStock_CellClick);
             // 
@@ -119,7 +119,9 @@
             this.GroupNuevoElemento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.GroupNuevoElemento.Controls.Add(this.TxtNombreS);
             this.GroupNuevoElemento.Controls.Add(this.TxtCategoriaS);
+            this.GroupNuevoElemento.Controls.Add(this.BtnEliminarS);
             this.GroupNuevoElemento.Controls.Add(this.TxtPrecioS);
+            this.GroupNuevoElemento.Controls.Add(this.BtnAgregarS);
             this.GroupNuevoElemento.Controls.Add(this.TxtDescripcionS);
             this.GroupNuevoElemento.Controls.Add(this.TxtStockS);
             this.GroupNuevoElemento.Controls.Add(this.TxtCodigoS);
@@ -131,11 +133,11 @@
             this.GroupNuevoElemento.Controls.Add(this.label2);
             this.GroupNuevoElemento.Controls.Add(this.label3);
             this.GroupNuevoElemento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GroupNuevoElemento.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupNuevoElemento.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupNuevoElemento.ForeColor = System.Drawing.Color.LightGray;
-            this.GroupNuevoElemento.Location = new System.Drawing.Point(27, 97);
+            this.GroupNuevoElemento.Location = new System.Drawing.Point(12, 96);
             this.GroupNuevoElemento.Name = "GroupNuevoElemento";
-            this.GroupNuevoElemento.Size = new System.Drawing.Size(207, 277);
+            this.GroupNuevoElemento.Size = new System.Drawing.Size(266, 327);
             this.GroupNuevoElemento.TabIndex = 2;
             this.GroupNuevoElemento.TabStop = false;
             this.GroupNuevoElemento.Text = "Nuevo Elemento";
@@ -143,49 +145,49 @@
             // TxtNombreS
             // 
             this.TxtNombreS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtNombreS.Location = new System.Drawing.Point(99, 70);
+            this.TxtNombreS.Location = new System.Drawing.Point(118, 71);
             this.TxtNombreS.Name = "TxtNombreS";
-            this.TxtNombreS.Size = new System.Drawing.Size(100, 19);
+            this.TxtNombreS.Size = new System.Drawing.Size(119, 19);
             this.TxtNombreS.TabIndex = 12;
             // 
             // TxtCategoriaS
             // 
             this.TxtCategoriaS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtCategoriaS.Location = new System.Drawing.Point(99, 235);
+            this.TxtCategoriaS.Location = new System.Drawing.Point(118, 235);
             this.TxtCategoriaS.Name = "TxtCategoriaS";
-            this.TxtCategoriaS.Size = new System.Drawing.Size(100, 19);
+            this.TxtCategoriaS.Size = new System.Drawing.Size(119, 19);
             this.TxtCategoriaS.TabIndex = 11;
             // 
             // TxtPrecioS
             // 
             this.TxtPrecioS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtPrecioS.Location = new System.Drawing.Point(99, 193);
+            this.TxtPrecioS.Location = new System.Drawing.Point(118, 193);
             this.TxtPrecioS.Name = "TxtPrecioS";
-            this.TxtPrecioS.Size = new System.Drawing.Size(100, 19);
+            this.TxtPrecioS.Size = new System.Drawing.Size(119, 19);
             this.TxtPrecioS.TabIndex = 10;
             // 
             // TxtDescripcionS
             // 
             this.TxtDescripcionS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtDescripcionS.Location = new System.Drawing.Point(99, 110);
+            this.TxtDescripcionS.Location = new System.Drawing.Point(118, 111);
             this.TxtDescripcionS.Name = "TxtDescripcionS";
-            this.TxtDescripcionS.Size = new System.Drawing.Size(100, 19);
+            this.TxtDescripcionS.Size = new System.Drawing.Size(119, 19);
             this.TxtDescripcionS.TabIndex = 9;
             // 
             // TxtStockS
             // 
             this.TxtStockS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtStockS.Location = new System.Drawing.Point(99, 150);
+            this.TxtStockS.Location = new System.Drawing.Point(118, 151);
             this.TxtStockS.Name = "TxtStockS";
-            this.TxtStockS.Size = new System.Drawing.Size(100, 19);
+            this.TxtStockS.Size = new System.Drawing.Size(119, 19);
             this.TxtStockS.TabIndex = 8;
             // 
             // TxtCodigoS
             // 
             this.TxtCodigoS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtCodigoS.Location = new System.Drawing.Point(99, 33);
+            this.TxtCodigoS.Location = new System.Drawing.Point(118, 33);
             this.TxtCodigoS.Name = "TxtCodigoS";
-            this.TxtCodigoS.Size = new System.Drawing.Size(100, 19);
+            this.TxtCodigoS.Size = new System.Drawing.Size(119, 19);
             this.TxtCodigoS.TabIndex = 7;
             // 
             // label8
@@ -213,7 +215,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(23, 114);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 20);
+            this.label6.Size = new System.Drawing.Size(0, 18);
             this.label6.TabIndex = 4;
             // 
             // label5
@@ -259,11 +261,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(242, 51);
+            this.label1.Location = new System.Drawing.Point(268, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(275, 33);
+            this.label1.Size = new System.Drawing.Size(250, 28);
             this.label1.TabIndex = 3;
             this.label1.Text = "CONTROL DE STOCK";
             // 
@@ -271,13 +273,13 @@
             // 
             this.BtnAgregarS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.BtnAgregarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAgregarS.ForeColor = System.Drawing.Color.DarkGray;
-            this.BtnAgregarS.Location = new System.Drawing.Point(27, 396);
+            this.BtnAgregarS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAgregarS.ForeColor = System.Drawing.Color.LightGray;
+            this.BtnAgregarS.Location = new System.Drawing.Point(27, 279);
             this.BtnAgregarS.Name = "BtnAgregarS";
             this.BtnAgregarS.Size = new System.Drawing.Size(97, 33);
             this.BtnAgregarS.TabIndex = 4;
-            this.BtnAgregarS.Text = "Agregar";
+            this.BtnAgregarS.Text = "AGREGAR";
             this.BtnAgregarS.UseVisualStyleBackColor = false;
             this.BtnAgregarS.Click += new System.EventHandler(this.BtnAgregarS_Click);
             // 
@@ -285,13 +287,13 @@
             // 
             this.BtnEliminarS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.BtnEliminarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEliminarS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEliminarS.ForeColor = System.Drawing.Color.DarkGray;
-            this.BtnEliminarS.Location = new System.Drawing.Point(137, 396);
+            this.BtnEliminarS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEliminarS.ForeColor = System.Drawing.Color.LightGray;
+            this.BtnEliminarS.Location = new System.Drawing.Point(140, 279);
             this.BtnEliminarS.Name = "BtnEliminarS";
             this.BtnEliminarS.Size = new System.Drawing.Size(97, 33);
             this.BtnEliminarS.TabIndex = 5;
-            this.BtnEliminarS.Text = "Eliminar";
+            this.BtnEliminarS.Text = "ELIMINAR";
             this.BtnEliminarS.UseVisualStyleBackColor = false;
             this.BtnEliminarS.Click += new System.EventHandler(this.BtnEliminarS_Click);
             // 
@@ -325,8 +327,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureMinimizar);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.BtnEliminarS);
-            this.Controls.Add(this.BtnAgregarS);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.GroupNuevoElemento);
             this.Controls.Add(this.DgvStock);

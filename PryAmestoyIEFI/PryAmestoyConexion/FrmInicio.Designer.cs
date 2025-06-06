@@ -30,50 +30,39 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmInicio));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.picturePersona = new System.Windows.Forms.PictureBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnAcceder = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblOlvidarContraseñan = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturePersona)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.picturePersona);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 330);
+            this.panel1.Size = new System.Drawing.Size(250, 358);
             this.panel1.TabIndex = 0;
             // 
-            // pictureBox3
+            // picturePersona
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(85, 162);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(68, 59);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(85, 97);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(68, 59);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.picturePersona.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(200)))));
+            this.picturePersona.Image = ((System.Drawing.Image)(resources.GetObject("picturePersona.Image")));
+            this.picturePersona.Location = new System.Drawing.Point(20, 18);
+            this.picturePersona.Name = "picturePersona";
+            this.picturePersona.Size = new System.Drawing.Size(211, 318);
+            this.picturePersona.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picturePersona.TabIndex = 0;
+            this.picturePersona.TabStop = false;
+            this.picturePersona.Click += new System.EventHandler(this.picturePersona_Click);
             // 
             // txtUsuario
             // 
@@ -106,13 +95,14 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.LightGray;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(200)))));
             this.label1.Location = new System.Drawing.Point(447, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 22);
+            this.label1.Size = new System.Drawing.Size(165, 22);
             this.label1.TabIndex = 3;
             this.label1.Text = "INICIO DE SESION";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnAcceder
             // 
@@ -121,8 +111,8 @@
             this.btnAcceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btnAcceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcceder.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAcceder.ForeColor = System.Drawing.Color.DarkGray;
+            this.btnAcceder.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAcceder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(200)))));
             this.btnAcceder.Location = new System.Drawing.Point(330, 245);
             this.btnAcceder.Name = "btnAcceder";
             this.btnAcceder.Size = new System.Drawing.Size(400, 40);
@@ -143,24 +133,25 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label2
+            // lblOlvidarContraseñan
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.LightGray;
-            this.label2.Location = new System.Drawing.Point(434, 305);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(194, 16);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "¿ HA OLVIDADO LA CONTRASEÑA ?";
+            this.lblOlvidarContraseñan.AutoSize = true;
+            this.lblOlvidarContraseñan.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOlvidarContraseñan.ForeColor = System.Drawing.Color.LightGray;
+            this.lblOlvidarContraseñan.Location = new System.Drawing.Point(434, 305);
+            this.lblOlvidarContraseñan.Name = "lblOlvidarContraseñan";
+            this.lblOlvidarContraseñan.Size = new System.Drawing.Size(194, 16);
+            this.lblOlvidarContraseñan.TabIndex = 6;
+            this.lblOlvidarContraseñan.Text = "¿ HA OLVIDADO LA CONTRASEÑA ?";
+            this.lblOlvidarContraseñan.Click += new System.EventHandler(this.lblOlvidarContraseñan_Click);
             // 
             // FrmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(13)))));
-            this.ClientSize = new System.Drawing.Size(780, 330);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(780, 358);
+            this.Controls.Add(this.lblOlvidarContraseñan);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnAcceder);
             this.Controls.Add(this.label1);
@@ -174,8 +165,7 @@
             this.Text = "FrmInicio";
             this.Load += new System.EventHandler(this.FrmInicio_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturePersona)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -190,8 +180,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAcceder;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox picturePersona;
+        private System.Windows.Forms.Label lblOlvidarContraseñan;
     }
 }

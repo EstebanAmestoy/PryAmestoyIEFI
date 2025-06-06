@@ -168,11 +168,11 @@
             // LblAdmin
             // 
             this.LblAdmin.AutoSize = true;
-            this.LblAdmin.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblAdmin.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAdmin.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LblAdmin.Location = new System.Drawing.Point(21, 62);
             this.LblAdmin.Name = "LblAdmin";
-            this.LblAdmin.Size = new System.Drawing.Size(225, 33);
+            this.LblAdmin.Size = new System.Drawing.Size(231, 33);
             this.LblAdmin.TabIndex = 4;
             this.LblAdmin.Text = "ADMINISTACION";
             // 
@@ -203,7 +203,7 @@
             this.btnUsuario.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnUsuario.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuario.Image")));
             this.btnUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuario.Location = new System.Drawing.Point(40, 138);
+            this.btnUsuario.Location = new System.Drawing.Point(40, 156);
             this.btnUsuario.Name = "btnUsuario";
             this.btnUsuario.Size = new System.Drawing.Size(167, 41);
             this.btnUsuario.TabIndex = 1;
@@ -226,11 +226,11 @@
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.BackColor = System.Drawing.Color.Transparent;
-            this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblFecha.Location = new System.Drawing.Point(585, 524);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(126, 37);
+            this.lblFecha.Size = new System.Drawing.Size(122, 38);
             this.lblFecha.TabIndex = 1;
             this.lblFecha.Text = "FECHA";
             // 
@@ -238,11 +238,11 @@
             // 
             this.lblHora.AutoSize = true;
             this.lblHora.BackColor = System.Drawing.Color.Transparent;
-            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(200)))));
             this.lblHora.Location = new System.Drawing.Point(355, 238);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(163, 55);
+            this.lblHora.Size = new System.Drawing.Size(165, 57);
             this.lblHora.TabIndex = 0;
             this.lblHora.Text = "HORA";
             // 
