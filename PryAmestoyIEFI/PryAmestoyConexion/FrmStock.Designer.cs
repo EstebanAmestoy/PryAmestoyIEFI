@@ -33,10 +33,11 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStock));
             this.DgvStock = new System.Windows.Forms.DataGridView();
-            this.PictureTopS = new System.Windows.Forms.PictureBox();
             this.GroupNuevoElemento = new System.Windows.Forms.GroupBox();
             this.TxtNombreS = new System.Windows.Forms.TextBox();
             this.TxtCategoriaS = new System.Windows.Forms.TextBox();
+            this.BtnAgregarS = new System.Windows.Forms.Button();
+            this.BtnEliminarS = new System.Windows.Forms.Button();
             this.TxtPrecioS = new System.Windows.Forms.TextBox();
             this.TxtDescripcionS = new System.Windows.Forms.TextBox();
             this.TxtStockS = new System.Windows.Forms.TextBox();
@@ -49,15 +50,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.BtnAgregarS = new System.Windows.Forms.Button();
-            this.BtnEliminarS = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureMinimizar = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PictureTopS = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.DgvStock)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureTopS)).BeginInit();
             this.GroupNuevoElemento.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureTopS)).BeginInit();
             this.SuspendLayout();
             // 
             // DgvStock
@@ -87,7 +89,7 @@
             this.DgvStock.DefaultCellStyle = dataGridViewCellStyle2;
             this.DgvStock.EnableHeadersVisualStyles = false;
             this.DgvStock.GridColor = System.Drawing.Color.SteelBlue;
-            this.DgvStock.Location = new System.Drawing.Point(260, 97);
+            this.DgvStock.Location = new System.Drawing.Point(393, 97);
             this.DgvStock.Name = "DgvStock";
             this.DgvStock.ReadOnly = true;
             this.DgvStock.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -100,25 +102,17 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.DgvStock.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.DgvStock.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvStock.Size = new System.Drawing.Size(508, 277);
+            this.DgvStock.Size = new System.Drawing.Size(388, 341);
             this.DgvStock.TabIndex = 2;
             this.DgvStock.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvStock_CellClick);
-            // 
-            // PictureTopS
-            // 
-            this.PictureTopS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.PictureTopS.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PictureTopS.Location = new System.Drawing.Point(0, 0);
-            this.PictureTopS.Name = "PictureTopS";
-            this.PictureTopS.Size = new System.Drawing.Size(800, 39);
-            this.PictureTopS.TabIndex = 0;
-            this.PictureTopS.TabStop = false;
             // 
             // GroupNuevoElemento
             // 
             this.GroupNuevoElemento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.GroupNuevoElemento.Controls.Add(this.TxtNombreS);
             this.GroupNuevoElemento.Controls.Add(this.TxtCategoriaS);
+            this.GroupNuevoElemento.Controls.Add(this.BtnAgregarS);
+            this.GroupNuevoElemento.Controls.Add(this.BtnEliminarS);
             this.GroupNuevoElemento.Controls.Add(this.TxtPrecioS);
             this.GroupNuevoElemento.Controls.Add(this.TxtDescripcionS);
             this.GroupNuevoElemento.Controls.Add(this.TxtStockS);
@@ -131,61 +125,95 @@
             this.GroupNuevoElemento.Controls.Add(this.label2);
             this.GroupNuevoElemento.Controls.Add(this.label3);
             this.GroupNuevoElemento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GroupNuevoElemento.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupNuevoElemento.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupNuevoElemento.ForeColor = System.Drawing.Color.LightGray;
             this.GroupNuevoElemento.Location = new System.Drawing.Point(27, 97);
             this.GroupNuevoElemento.Name = "GroupNuevoElemento";
-            this.GroupNuevoElemento.Size = new System.Drawing.Size(207, 277);
+            this.GroupNuevoElemento.Size = new System.Drawing.Size(339, 341);
             this.GroupNuevoElemento.TabIndex = 2;
             this.GroupNuevoElemento.TabStop = false;
             this.GroupNuevoElemento.Text = "Nuevo Elemento";
             // 
             // TxtNombreS
             // 
+            this.TxtNombreS.BackColor = System.Drawing.Color.LightGray;
             this.TxtNombreS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtNombreS.Location = new System.Drawing.Point(99, 70);
+            this.TxtNombreS.Location = new System.Drawing.Point(139, 71);
             this.TxtNombreS.Name = "TxtNombreS";
-            this.TxtNombreS.Size = new System.Drawing.Size(100, 19);
+            this.TxtNombreS.Size = new System.Drawing.Size(162, 19);
             this.TxtNombreS.TabIndex = 12;
             // 
             // TxtCategoriaS
             // 
+            this.TxtCategoriaS.BackColor = System.Drawing.Color.LightGray;
             this.TxtCategoriaS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtCategoriaS.Location = new System.Drawing.Point(99, 235);
+            this.TxtCategoriaS.Location = new System.Drawing.Point(139, 235);
             this.TxtCategoriaS.Name = "TxtCategoriaS";
-            this.TxtCategoriaS.Size = new System.Drawing.Size(100, 19);
+            this.TxtCategoriaS.Size = new System.Drawing.Size(162, 19);
             this.TxtCategoriaS.TabIndex = 11;
+            // 
+            // BtnAgregarS
+            // 
+            this.BtnAgregarS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.BtnAgregarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarS.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAgregarS.ForeColor = System.Drawing.Color.LightGray;
+            this.BtnAgregarS.Location = new System.Drawing.Point(54, 288);
+            this.BtnAgregarS.Name = "BtnAgregarS";
+            this.BtnAgregarS.Size = new System.Drawing.Size(97, 33);
+            this.BtnAgregarS.TabIndex = 4;
+            this.BtnAgregarS.Text = "AGREGAR";
+            this.BtnAgregarS.UseVisualStyleBackColor = false;
+            this.BtnAgregarS.Click += new System.EventHandler(this.BtnAgregarS_Click);
+            // 
+            // BtnEliminarS
+            // 
+            this.BtnEliminarS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.BtnEliminarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEliminarS.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEliminarS.ForeColor = System.Drawing.Color.LightGray;
+            this.BtnEliminarS.Location = new System.Drawing.Point(195, 288);
+            this.BtnEliminarS.Name = "BtnEliminarS";
+            this.BtnEliminarS.Size = new System.Drawing.Size(97, 33);
+            this.BtnEliminarS.TabIndex = 5;
+            this.BtnEliminarS.Text = "ELIMINAR";
+            this.BtnEliminarS.UseVisualStyleBackColor = false;
+            this.BtnEliminarS.Click += new System.EventHandler(this.BtnEliminarS_Click);
             // 
             // TxtPrecioS
             // 
+            this.TxtPrecioS.BackColor = System.Drawing.Color.LightGray;
             this.TxtPrecioS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtPrecioS.Location = new System.Drawing.Point(99, 193);
+            this.TxtPrecioS.Location = new System.Drawing.Point(139, 193);
             this.TxtPrecioS.Name = "TxtPrecioS";
-            this.TxtPrecioS.Size = new System.Drawing.Size(100, 19);
+            this.TxtPrecioS.Size = new System.Drawing.Size(162, 19);
             this.TxtPrecioS.TabIndex = 10;
             // 
             // TxtDescripcionS
             // 
+            this.TxtDescripcionS.BackColor = System.Drawing.Color.LightGray;
             this.TxtDescripcionS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtDescripcionS.Location = new System.Drawing.Point(99, 110);
+            this.TxtDescripcionS.Location = new System.Drawing.Point(139, 111);
             this.TxtDescripcionS.Name = "TxtDescripcionS";
-            this.TxtDescripcionS.Size = new System.Drawing.Size(100, 19);
+            this.TxtDescripcionS.Size = new System.Drawing.Size(162, 19);
             this.TxtDescripcionS.TabIndex = 9;
             // 
             // TxtStockS
             // 
+            this.TxtStockS.BackColor = System.Drawing.Color.LightGray;
             this.TxtStockS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtStockS.Location = new System.Drawing.Point(99, 150);
+            this.TxtStockS.Location = new System.Drawing.Point(139, 153);
             this.TxtStockS.Name = "TxtStockS";
-            this.TxtStockS.Size = new System.Drawing.Size(100, 19);
+            this.TxtStockS.Size = new System.Drawing.Size(162, 19);
             this.TxtStockS.TabIndex = 8;
             // 
             // TxtCodigoS
             // 
+            this.TxtCodigoS.BackColor = System.Drawing.Color.LightGray;
             this.TxtCodigoS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtCodigoS.Location = new System.Drawing.Point(99, 33);
+            this.TxtCodigoS.Location = new System.Drawing.Point(139, 33);
             this.TxtCodigoS.Name = "TxtCodigoS";
-            this.TxtCodigoS.Size = new System.Drawing.Size(100, 19);
+            this.TxtCodigoS.Size = new System.Drawing.Size(162, 19);
             this.TxtCodigoS.TabIndex = 7;
             // 
             // label8
@@ -213,7 +241,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(23, 114);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 20);
+            this.label6.Size = new System.Drawing.Size(0, 18);
             this.label6.TabIndex = 4;
             // 
             // label5
@@ -259,74 +287,66 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(242, 51);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(190)))));
+            this.label1.Location = new System.Drawing.Point(250, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(275, 33);
+            this.label1.Size = new System.Drawing.Size(277, 33);
             this.label1.TabIndex = 3;
             this.label1.Text = "CONTROL DE STOCK";
             // 
-            // BtnAgregarS
+            // pictureBox1
             // 
-            this.BtnAgregarS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.BtnAgregarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAgregarS.ForeColor = System.Drawing.Color.DarkGray;
-            this.BtnAgregarS.Location = new System.Drawing.Point(27, 396);
-            this.BtnAgregarS.Name = "BtnAgregarS";
-            this.BtnAgregarS.Size = new System.Drawing.Size(97, 33);
-            this.BtnAgregarS.TabIndex = 4;
-            this.BtnAgregarS.Text = "Agregar";
-            this.BtnAgregarS.UseVisualStyleBackColor = false;
-            this.BtnAgregarS.Click += new System.EventHandler(this.BtnAgregarS_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(738, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(18, 24);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
-            // BtnEliminarS
+            // pictureMinimizar
             // 
-            this.BtnEliminarS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.BtnEliminarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEliminarS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEliminarS.ForeColor = System.Drawing.Color.DarkGray;
-            this.BtnEliminarS.Location = new System.Drawing.Point(137, 396);
-            this.BtnEliminarS.Name = "BtnEliminarS";
-            this.BtnEliminarS.Size = new System.Drawing.Size(97, 33);
-            this.BtnEliminarS.TabIndex = 5;
-            this.BtnEliminarS.Text = "Eliminar";
-            this.BtnEliminarS.UseVisualStyleBackColor = false;
-            this.BtnEliminarS.Click += new System.EventHandler(this.BtnEliminarS_Click);
+            this.pictureMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("pictureMinimizar.Image")));
+            this.pictureMinimizar.Location = new System.Drawing.Point(762, 12);
+            this.pictureMinimizar.Name = "pictureMinimizar";
+            this.pictureMinimizar.Size = new System.Drawing.Size(18, 24);
+            this.pictureMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureMinimizar.TabIndex = 7;
+            this.pictureMinimizar.TabStop = false;
+            this.pictureMinimizar.Click += new System.EventHandler(this.pictureMinimizar_Click);
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(764, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(786, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(17, 16);
+            this.pictureBox2.Size = new System.Drawing.Size(18, 24);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // pictureMinimizar
+            // PictureTopS
             // 
-            this.pictureMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("pictureMinimizar.Image")));
-            this.pictureMinimizar.Location = new System.Drawing.Point(741, 12);
-            this.pictureMinimizar.Name = "pictureMinimizar";
-            this.pictureMinimizar.Size = new System.Drawing.Size(17, 16);
-            this.pictureMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureMinimizar.TabIndex = 7;
-            this.pictureMinimizar.TabStop = false;
-            this.pictureMinimizar.Click += new System.EventHandler(this.pictureMinimizar_Click);
+            this.PictureTopS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.PictureTopS.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PictureTopS.Location = new System.Drawing.Point(0, 0);
+            this.PictureTopS.Name = "PictureTopS";
+            this.PictureTopS.Size = new System.Drawing.Size(815, 39);
+            this.PictureTopS.TabIndex = 0;
+            this.PictureTopS.TabStop = false;
             // 
             // FrmStock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(13)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(815, 493);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureMinimizar);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.BtnEliminarS);
-            this.Controls.Add(this.BtnAgregarS);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.GroupNuevoElemento);
             this.Controls.Add(this.DgvStock);
@@ -338,11 +358,12 @@
             this.Text = "FrmStock";
             this.Load += new System.EventHandler(this.FrmStock_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvStock)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureTopS)).EndInit();
             this.GroupNuevoElemento.ResumeLayout(false);
             this.GroupNuevoElemento.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureTopS)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -371,5 +392,6 @@
         private System.Windows.Forms.Button BtnEliminarS;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureMinimizar;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
